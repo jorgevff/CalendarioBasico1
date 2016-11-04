@@ -27,10 +27,18 @@ public class CalendarioBasico1
 
     /**
      * ahora voy a crear los metodos.
+     * metodo fijarFecha y se le da tres parametros para dia mes y año
      */
-    public void fecha()
+    public void fijarFecha(int fijarDia, int fijarMes, int fijarAnno)
     {
-        // put your code here
+            
+        dia = fijarDia;
+            
+        mes = fijarMes;
+        
+        anno = fijarAnno;
         
     }
+    
+    
 }
